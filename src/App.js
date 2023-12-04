@@ -1,12 +1,12 @@
 import React from 'react';
-import Homepage from './components/Home/Homepage';
-import Hello from './Hello';
+/** @jsxImportSource @emotion/react */
+import "twin.macro";
+import Card from './components/Home/Card';
 
 function App() {
   return (
     <>
-    <Homepage />
-    <Hello />
+    <Card/>
     </>
   );
 }
